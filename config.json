@@ -1,0 +1,22 @@
+{
+    "postgresql":{
+        "host":"localhost",
+        "db":"digitalskola",
+        "user":"postgres",
+        "pwd":"admin",
+        "port":5432
+    },
+    
+    "warehouse":{
+        "host":"localhost",
+        "db":"dwh_digitalskola",
+        "user":"postgres",
+        "pwd":"admin",
+        "port":5432
+    },
+
+    "spark":{
+        "ip":"spark://Novian.localdomain:7077"
+    }
+
+}
